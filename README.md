@@ -12,16 +12,8 @@
 
 ## **🛠 Installation**  
 
-1. **Download the project:**  
-   - Clone the repo:  
-     ```sh
-     git clone https://github.com/yourusername/trump-musk-filter.git
-     ```
-   - Or **download as a ZIP** and extract it.  
-
-2. **Load the extension in Chrome:**  
+**Load the extension in Chrome:**  
    - Open `chrome://extensions/` in your browser.  
    - Enable **Developer Mode** (toggle in the top right).  
    - Click **"Load unpacked"** and select the project folder.  
 
-3. **Done!** The extension is now active.  
