@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Trump & Musk Filter</title>
-    <script src="popup.js" defer></script>
-</head>
-<body>
-    <h2>Trump & Musk Filter</h2>
-    <button id="toggle">Disable Filter</button>
-</body>
+<html lang="en">
+  <head>
+    <title>Filter Toggle</title>
+    <style>
+      body {
+        width: 180px;
+        padding: 10px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 5px;
+        border-radius: 4px;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="toggleTrump">Disable Trump Filter</button>
+    <button id="toggleElon">Disable Elon Filter</button>
+    <script src="popup.js"></script>
+    <h4>Xclude 2025</h4>
+  </body>
 </html>
